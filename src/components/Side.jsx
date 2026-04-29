@@ -3,7 +3,7 @@
 export default  function Side(){
     return (
         <aside className="side-bar">
-            <figure><img src="src\assets\Profile.jpg" alt="" /></figure>
+            <figure><img src="./src/assets/Profile.jpg" alt="" /></figure>
             <div className="side-intro">
                 <h2>Mostafa Reda</h2>
                 <p className="title">D365 F&O Functional Consultant @ Mindzer Systems | Industrial Engineer</p>

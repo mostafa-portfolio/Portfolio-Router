@@ -2,6 +2,9 @@
 import {Link} from 'react-router-dom'
 import ServiceCard from './ServiceCard'
 import Header from './Header'
+import iconDev from '/src/assets/icon-dev.svg'
+import iconDesign from '/src/assets/icon-design.svg'
+
 export default function About(){
 
 
@@ -32,17 +35,17 @@ export default function About(){
             <h2>What I'm Doing</h2>
             <div className='service-box'>
                 <ServiceCard
-                    icon="src\assets\icon-dev.svg"
+                    icon={iconDev}
                     title="Frontend Web Development" 
                     description="High-quality development of sites at the professional level."
                 />
                 <ServiceCard 
-                    icon="src\assets\icon-design.svg"
+                    icon={iconDesign}
                     title="Microsoft Dynamics ERP Consultant" 
                     description="Works with Dynamics 365 , AX 2012 , Business Central and Field Service."
                 />
                 <ServiceCard 
-                    icon="src\assets\icon-design.svg"
+                    icon={iconDesign}
                     title="Industrial Engineer" 
                     description="Nile University Alumni with experience in Electrical Appliances , Transformers and Elevators industries."
                 />
