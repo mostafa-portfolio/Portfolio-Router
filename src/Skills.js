@@ -1,0 +1,16 @@
+export default [
+    {title:"SolidWorks",id:1},
+    {title:"React js",id:2},
+    {title:"D365",id:3},
+    {title:"AutoCAD",id:4},
+    {title:"React Router",id:5},
+    {title:"SQL",id:6},
+    {title:"AX 2012",id:7},
+    {title:"CATIA",id:8},
+    {title:"HTML",id:9},
+    {title:"Field Service",id:10},
+    {title:"Flex Sim",id:11},
+    {title:"B.Central",id:12},
+    {title:"MATLAB",id:13},
+    {title:"UML",id:14},
+]
