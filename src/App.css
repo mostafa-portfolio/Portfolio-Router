@@ -74,6 +74,12 @@ h1,h2,h3,h4{
   font-family: 'Poppins', sans-serif;
   color: var(--white-ighlight);
 }
+
+h1{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 h2{
   font-size: var(--fs-9);
   margin: .7em 0 .7em;
@@ -94,10 +100,7 @@ h5{
 ul{
   list-style-type: none;
 }
-h1{
-  font-size: 2rem;
-  font-weight: 600;
-}
+
 
 p {
   margin: 0;
@@ -124,6 +127,7 @@ a{
 /*-----------------------------------*\
   #Main
 \*-----------------------------------*/
+
 main{
   display: grid;
   grid-template-columns: 20% 72%;
@@ -228,7 +232,7 @@ hr{
   margin: 0 auto 1.6em 0;
 
 }
-/* hsl(45, 54%, 58%) */
+
 .about-intro{
   text-align: left;
   
@@ -495,7 +499,6 @@ hr{
 main{
 display: grid;
 grid-template-columns: 1fr;
-/* border: 1px solid white; */
 gap: 0;
 width: 100%;
 margin: 0;
@@ -507,7 +510,6 @@ padding: 0;
   margin: 1rem auto 5rem;
   padding: 0 .5rem 2rem 2rem;
   width: 82%;
-  /* background: hsl(240, 2%, 12%); */
   animation: fade 0.5s ease backwards;
 }
 
@@ -518,7 +520,6 @@ padding: 0;
   width: 95%;
   
 }
-
 .about-me-desc{
   width: 95%;
   color: var(--light-gray);
@@ -531,7 +532,6 @@ hr{
   margin: 0 auto 1.6em 0;
 
 }
-/* hsl(45, 54%, 58%) */
 .about-intro{
   text-align: left;
   
@@ -668,9 +668,6 @@ text-align: center;
 }
 
 }
-
-
-
 
 
 
