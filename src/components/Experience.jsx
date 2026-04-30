@@ -4,7 +4,6 @@ export default function Experience(){
 
     return(
 
-
         <section class="timeline">
 
           <div class="title-wrapper">
@@ -53,13 +52,10 @@ export default function Experience(){
                 Microsoft Dynamics SC & Manufacturing Consultant
               </p>
               <span>01/2024 — 01/2025</span>
-
               <p class="timeline-text">
                 Supply Chain – Planning – Production – Advanced Warehouse 
                 Management – Field Service – Business Central.
               </p>
-
-                
               <p class="timeline-text">
                   -       Led the implementation of Advanced Warehouse Management to 
                   Kabbani Group Subsidiary, Namat.
@@ -69,13 +65,10 @@ export default function Experience(){
                           Warehouse Management for MCS & DeepTech Oil
                           and ROV Services.
               </p>
-                      <p class="timeline-text">
+              <p class="timeline-text">
                   - Helped building Business Central for
                   Groovy, incorporating Supply Chain and Finance.
-
               </p>
-
-                
 
             </li>
 
@@ -95,7 +88,7 @@ export default function Experience(){
 
             </li>
 
-            </ul>
+          </ul>
 
         </section>
     )
