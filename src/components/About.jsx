@@ -22,33 +22,30 @@ export default function About(){
                 </div>
                 <hr />
                <div className='about-me-desc '> 
-                 <p>Industrial Engineer with a solid foundation in mechanical product design and process engineering. Earned recognition for academic excellence,
-                     including first-place honors in operations and production management at the 9th NU Research Forum.</p>
-                 <p>Currently contributing as a Dynamics 365 Finance and Operations Functional Consultant at Mindzer Systems.
-                     Specializing in Advanced Warehouse Management, supply chain processes, and user training, with a focus on 
-                     delivering smooth implementations and successful go-live outcomes. Passionate about driving efficiency and 
-                     innovation through tailored solutions.
-
+                 <p>Detail-oriented Engineer with a Master’s-level focus on mechatronics, automation, and advanced manufacturing.
+                    Proficient in CAD/CAM (CATIA, SolidWorks), simulation, and optimization of mechanical and electro-hydraulic
+                    systems. Proven ability to integrate multidisciplinary knowledge for system design and process improvement. 
                 </p>
                </div>
             </div>
             <h2>What I'm Doing</h2>
             <div className='service-box'>
-                <ServiceCard
-                    icon={iconDev}
-                    title="Frontend Web Development" 
-                    description="High-quality development of sites at the professional level."
+               
+                <ServiceCard 
+                    icon={iconDesign}
+                    title="Industrial Engineer" 
+                    description="Nile University Alumni with experience in Electrical Appliances , Transformers and Elevators industry."
                 />
                 <ServiceCard 
                     icon={iconDesign}
                     title="Microsoft Dynamics ERP Consultant" 
                     description="Works with Dynamics 365 , AX 2012 , Business Central and Field Service."
                 />
-                <ServiceCard 
-                    icon={iconDesign}
-                    title="Industrial Engineer" 
-                    description="Nile University Alumni with experience in Electrical Appliances , Transformers and Elevators industries."
-                />
+                {/* <ServiceCard
+                    icon={iconDev}
+                    title="Frontend Web Development" 
+                    description="High-quality development of sites at the professional level."
+                /> */}
             </div>
         </section>
     )

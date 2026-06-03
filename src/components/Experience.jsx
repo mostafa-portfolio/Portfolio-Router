@@ -18,34 +18,31 @@ export default function Experience(){
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Mindzer</h4>
+              <h4 class="h4 timeline-item-title">Nile University</h4>
               <p class="timeline-text">
-                ERP SC & Manufacturing Consultant
+                Master of Science - MS, Mechatronics, Robotics, and Automation Engineering
               </p>
-               <p class="timeline-text">
+              {/*  <p class="timeline-text">
                 Bahrain - Remote
-              </p>
+              </p> */}
               
               <span>02/2025 — Now</span>
 
               <p class="timeline-text">
-                - Analyzing and Gathering companies' requirements
+                - Designed and simulated integrated mechatronic systems combining electrical, hydraulic, and
+pneumatic actuators with embedded controllers, utilizing magnetic circuit analysis, power
+electronics, and servo systems for motion control.
               </p>
               <p class="timeline-text">
-                - Building FDD and SDD 
+                - Developed virtual prototypes using CAD tools (CATIA, ANSYS, AutoCAD), performing
+simulations, process planning, and analysis of non-traditional machining methods
+(EDM, LBM, USM).  
               </p>
-              <p class="timeline-text">
-                - Implementing and training users on new modules
-              </p>
-              <p class="timeline-text">
-                - Conducting UAT, go Live and after live support
-              </p>
-             
 
             </li>
 
 
-            <li class="timeline-item">
+            {/* <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">MBS Business Solutions</h4>
               <p class="timeline-text">
@@ -70,20 +67,42 @@ export default function Experience(){
                   Groovy, incorporating Supply Chain and Finance.
               </p>
 
-            </li>
+            </li> */}
 
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">White Point</h4>
               <p class="timeline-text">
-                Industrial Engineer
+                Industrial Engineer - Digital Transfomation
               </p>
 
-              <span>12/2022 — 01/2024</span>
+              <span>10/2024 — 01/2026</span>
 
+              <p class="timeline-text"> - Implemented lean manufacturing & continuous improvement projects to reduce waste & enhance line productivity. </p>
+              <p class="timeline-text"> - Trained new engineers & semi-direct staff to improve shop-floor condition & conduct audit on their direct subordinates.</p>               
+              <p class="timeline-text"> - Transfoming and implementing supply chain and prodcution into ERP D365, from gap analysis to going live.</p>               
+  
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TEPCO</h4>
               <p class="timeline-text">
-               - Implemented lean manufacturing & continuous improvement projects to reduce waste & enhance line productivity. 
-               - Trained new engineers & semi-direct staff to improve shop-floor condition & conduct audit on their direct subordinates.
+                Process Engineer
+              </p>
+              <span>12/2022 — 09/2024</span>
+              {/* <p class="timeline-text">
+                Supply Chain – Planning – Production – Advanced Warehouse 
+                Management – Field Service – Business Central.
+              </p> */}
+              <p class="timeline-text">
+                  -     Collaborated with my team to improve productivity and enhancing the layout of
+                        the production line and Manpower distribution using Software tools such as Flex
+                        Sim, MOST and EXCEL. 
+              </p>
+              <p class="timeline-text">
+                  - Guided Production Engineers in optimizing their production line through waste
+                    reduction.
               </p>
 
             </li>

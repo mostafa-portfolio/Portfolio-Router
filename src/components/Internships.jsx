@@ -14,7 +14,7 @@ export default function Internships(){
 
           <ul class="timeline-list">
 
-            <li class="timeline-item">
+           {/*  <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">Algoriza</h4>
               <p class="timeline-text">
@@ -27,7 +27,7 @@ export default function Internships(){
                 Worked with React JS & VUE JS Frameworks on multiple Frontend tasks.
               </p>
 
-            </li>
+            </li> */}
 
             <li class="timeline-item">
 
@@ -64,7 +64,7 @@ export default function Internships(){
               </p>
 
             </li>
-            <li class="timeline-item">
+            {/* <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">TEPCO</h4>
               <p class="timeline-text">
@@ -81,7 +81,7 @@ export default function Internships(){
                 -       Helped Production Engineers optimizing their production line through waste reduction.
               </p>
 
-            </li>
+            </li> */}
 
           </ul>
 
