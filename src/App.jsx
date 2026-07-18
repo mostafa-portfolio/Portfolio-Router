@@ -16,10 +16,10 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route path='/*' element={<Landing/>}></Route>
-            <Route path='/*/resume' element={<Resume/>}/>
+            <Route path='/index.html/resume' element={<Resume/>}/>
             {/* <Route path='/portfolio' element={<Portfolio/>}/> */}
-            <Route path='/*/certificates' element={<Certificates/>}/>
-            <Route path='/*/side' element={<Side/>}/>
+            <Route path='/index.html/certificates' element={<Certificates/>}/>
+            <Route path='/index.html/side' element={<Side/>}/>
         </Routes>
       </BrowserRouter>
     </>
