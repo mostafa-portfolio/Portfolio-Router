@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { BrowserRouter,Routes,Route,Link } from 'react-router-dom'
+import { BrowserRouter,HashRouter ,Routes,Route,Link } from 'react-router-dom'
 import './App.css'
 import About from './components/About'
 import Resume from './components/Resume'
@@ -13,15 +13,15 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
-            <Route path='/*' element={<Landing/>}></Route>
-            <Route path='/index.html/resume' element={<Resume/>}/>
+            <Route path='/' element={<Landing/>}></Route>
+            <Route path='/resume' element={<Resume/>}/>
             {/* <Route path='/portfolio' element={<Portfolio/>}/> */}
-            <Route path='/index.html/certificates' element={<Certificates/>}/>
-            <Route path='/index.html/side' element={<Side/>}/>
+            <Route path='/certificates' element={<Certificates/>}/>
+            <Route path='/side' element={<Side/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
