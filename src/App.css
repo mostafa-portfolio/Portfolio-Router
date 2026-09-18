@@ -51,6 +51,9 @@ text-rendering: optimizeLegibility;
 .yellow{
   color: var(--theme);
 }
+.yellow-highlight:hover{
+  color: var(--theme);
+}
 .white-highlight{
   color: var(--white-ighlight);
 }
@@ -115,6 +118,8 @@ b{
   font-weight: bold;
   color: var(--light-gray);
 }
+
+
 /* header */
 
 .header{
@@ -310,6 +315,7 @@ hr{
 
 }
 .portfolio-card-container{
+  color: /* #D3D3D3CC */ #D3D3D3E6;
   margin-top: 2em;
   margin-right: 2em;
   display: grid;

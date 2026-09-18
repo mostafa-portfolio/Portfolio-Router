@@ -5,8 +5,7 @@ export default function Certificates(){
 
     /* pathname to highligh title */
     let pathName= window.location.pathname
-
-
+    console.log(Boolean(pathName))
     const certificatesHtml=certificatesData.map(certificate=>{
                         return  <div className='certificate-card ' key={certificate.id}>
                                     <img src={certificate.imgUrl} alt="" className='certificate-img cursor-pointer'/>
@@ -23,10 +22,10 @@ export default function Certificates(){
                 <div className='certificates-intro'>
                     <div className='about-me-head'>
                         <h1>Certificates</h1>
-                        <Header certificatesClass={pathName==="/certificates"&&"yellow"}/>
+                        <Header certificatesClass={Boolean(pathName)===true&&"yellow"}/>
                     </div>
                     <hr />
-                    <p className='yellow '>All</p>
+                    {/* <p className='yellow '>All</p> */}
                 </div>
 
                 <div className='certificates-card-container'>

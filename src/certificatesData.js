@@ -13,7 +13,5 @@ export default [
   { imgUrl:mckinseyImg, date:"07 July, 2025", title: "McKinsey Forward Program" , organization:"McKinsey & Company" ,  id:4},
   { imgUrl:advancedNanoImg, date:"14 Dec, 2021", title: "JavaScript Advanced Nanodegree" , organization:"UDACITY" ,  id:3},
   { imgUrl:uadcity, date:"Oct, 2021", title: "SQL for Data Analysis" , organization:"Udacity" ,  id:2},
-  
-  
   { imgUrl:advancedReactImg, date:"13 Jan, 2026", title: "Advanced React Js" , organization:"Scrimba" , id:5},
 ]

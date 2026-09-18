@@ -19,7 +19,7 @@ export default function Resume(){
             <div className='about-intro'>
                 <div className='about-me-head'>
                     <h1>Resume</h1>
-                    <Header resumeClass={pathName==="/resume"&&"yellow"}/>
+                    <Header resumeClass={Boolean(pathName)===true&&"yellow"}/>
                 </div>
                 <hr />
             </div>

@@ -18,7 +18,7 @@ export default function About(){
             <div className='about-intro'>
                 <div className='about-me-head'>
                     <h1>About Me</h1>
-                    <Header aboutClass={pathName==="/"&&"yellow"}/>
+                    <Header aboutClass={Boolean(pathName)===true&&"yellow"}/>
                 </div>
                 <hr />
                <div className='about-me-desc '> 

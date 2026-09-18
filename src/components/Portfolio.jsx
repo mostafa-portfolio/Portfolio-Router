@@ -31,7 +31,7 @@ export default function Portfolio(){
                 <div className='about-intro'>
                     <div className='about-me-head'>
                         <h1>Projects</h1>
-                        <Header portfolioClass={pathName==="/portfolio"&&"yellow"}/>
+                        <Header portfolioClass={Boolean(pathName)===true&&"yellow"}/>
                     </div>
                     <hr />
                     
