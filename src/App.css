@@ -270,7 +270,7 @@ hr{
   grid-template-columns: 1fr 1fr;
   gap: 25px;
   justify-content: start;
-  margin-right: 1em;
+  margin-right: 1.5rem;
 }
 .service-icon{
   width: 70px;
@@ -387,6 +387,7 @@ hr{
 .timeline { 
   text-align: left;
   margin-bottom: 30px;
+  margin-right: 2rem;
  }
 
 .timeline .title-wrapper {
@@ -463,19 +464,19 @@ hr{
 .skills-list { 
   text-align: left;
   display: grid;
-  gap: 5px;
+  gap: 40px;
   row-gap: 5px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   padding: 20px;
   background-color: red;
-  max-width: 50em;
+  max-width: 80em;
   border-radius: 20px;
-  margin: auto;
+  margin-right: 2rem;
   border: 2px solid hsl(0, 0%, 22%);
   background: var(--border-gradient-onyx);
   border-radius: 14px;
   box-shadow: var(--shadow-2);
-  
+  font-size: .5rem;
 }
 
 
@@ -493,7 +494,6 @@ hr{
   font-size: var(--fs-7);
   font-weight: var(--fw-300);
 }
-
 
 
 
@@ -741,9 +741,17 @@ max-width: 90%;
   width: 120px;
   height: 100%;
 }
-.service-card , .certificates-card-container /* , .portfolio-card-container */{
+.service-card , .certificates-card-container {
   grid-template-columns: 1fr 1fr;
 }
 
+
+}
+
+
+@media (max-width:600px){
+ .skills-list{
+  grid-template-columns: 1fr;
+ }
 
 }
