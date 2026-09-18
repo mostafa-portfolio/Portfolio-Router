@@ -22,24 +22,26 @@ export default function About(){
                 </div>
                 <hr />
                <div className='about-me-desc '> 
-                 <p>Detail-oriented Engineer with a Master’s-level focus on mechatronics, automation, and advanced manufacturing.
+                {/*  <p>Detail-oriented Engineer with a Master’s-level focus on mechatronics, automation, and advanced manufacturing.
                     Proficient in CAD/CAM (CATIA, SolidWorks), simulation, and optimization of mechanical and electro-hydraulic
                     systems. Proven ability to integrate multidisciplinary knowledge for system design and process improvement. 
+                </p> */}
+                 <p>D365 ERP Consultant with Industrial Engineering background specialized in driving end-to-end business transformations across diverse sectors. Throughout my career, I have successfully delivered full-cycle implementations, including major supply chain and master planning projects, as well as advanced Warehouse Management Systems (WMS). My expertise lies in optimizing operational efficiency by bridging the gap between complex engineering processes and robust ERP systems.
                 </p>
                </div>
             </div>
             <h2>What I'm Doing</h2>
             <div className='service-box'>
+                <ServiceCard 
+                    icon={iconDesign}
+                    title="Microsoft Dynamics ERP Consultant" 
+                    description="Works with Dynamics 365 , AX 2012 , Business Central and Field Service."
+                />
                
                 <ServiceCard 
                     icon={iconDesign}
                     title="Industrial Engineer" 
                     description="Nile University Alumni with experience in Electrical Appliances , Transformers and Elevators industry."
-                />
-                <ServiceCard 
-                    icon={iconDesign}
-                    title="Microsoft Dynamics ERP Consultant" 
-                    description="Works with Dynamics 365 , AX 2012 , Business Central and Field Service."
                 />
                 {/* <ServiceCard
                     icon={iconDev}

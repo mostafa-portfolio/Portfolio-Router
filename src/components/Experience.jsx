@@ -18,94 +18,58 @@ export default function Experience(){
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Nile University</h4>
+              <h4 class="h4 timeline-item-title">Mindzer</h4>
               <p class="timeline-text">
-                Master of Science - MS, Mechatronics, Robotics, and Automation Engineering
+                D365 F&O Functional Consultant - Supply Chain & WMS
               </p>
-              {/*  <p class="timeline-text">
-                Bahrain - Remote
-              </p> */}
               
-              <span>02/2025 — Now</span>
+              <span>05/2025 — Present</span>
 
               <p class="timeline-text">
-                - Designed and simulated integrated mechatronic systems combining electrical, hydraulic, and
-pneumatic actuators with embedded controllers, utilizing magnetic circuit analysis, power
-electronics, and servo systems for motion control.
+                <b>Core Focus</b>: Translate complex business requirements into scalable D365 F&O solutions by running functional design workshops and detailed process mapping sessions.
               </p>
               <p class="timeline-text">
-                - Developed virtual prototypes using CAD tools (CATIA, ANSYS, AutoCAD), performing
-simulations, process planning, and analysis of non-traditional machining methods
-(EDM, LBM, USM).  
+                <b>Warehouse Management</b>: Design and deploy advanced warehouse mobile device configurations for inventory movements, cycle counting, and license plate tracking, maximizing real-time visibility.
+              </p>
+              <p class="timeline-text">
+                <b>Manufacturing & Operations</b>: Configure Production Control and formula management architectures to support complex, multi-level chemical batch manufacturing and lean inventory practices.
               </p>
 
             </li>
 
 
-            {/* <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">MBS Business Solutions</h4>
-              <p class="timeline-text">
-                Microsoft Dynamics SC & Manufacturing Consultant
-              </p>
-              <span>01/2024 — 01/2025</span>
-              <p class="timeline-text">
-                Supply Chain – Planning – Production – Advanced Warehouse 
-                Management – Field Service – Business Central.
-              </p>
-              <p class="timeline-text">
-                  -       Led the implementation of Advanced Warehouse Management to 
-                  Kabbani Group Subsidiary, Namat.
-              </p>
-              <p class="timeline-text">
-                  - Worked on implementation of Supply Chain and advanced
-                          Warehouse Management for MCS & DeepTech Oil
-                          and ROV Services.
-              </p>
-              <p class="timeline-text">
-                  - Helped building Business Central for
-                  Groovy, incorporating Supply Chain and Finance.
-              </p>
-
-            </li> */}
-
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">White Point</h4>
+              <h4 class="h4 timeline-item-title">MBS</h4>
               <p class="timeline-text">
-                Industrial Engineer - Digital Transfomation
+                D365 F&O Functional Consultant - Supply Chain & WMS
               </p>
 
-              <span>10/2024 — 01/2026</span>
+              <span>12/2022 — 04/2025</span>
 
-              <p class="timeline-text"> - Implemented lean manufacturing & continuous improvement projects to reduce waste & enhance line productivity. </p>
-              <p class="timeline-text"> - Trained new engineers & semi-direct staff to improve shop-floor condition & conduct audit on their direct subordinates.</p>               
-              <p class="timeline-text"> - Transfoming and implementing supply chain and prodcution into ERP D365, from gap analysis to going live.</p>               
+              <p class="timeline-text"> - Led the full-cycle implementation of Advanced Warehouse Management to Kabbani Group Subsidiary, Namat.  </p>
+              <p class="timeline-text"> - Designed and executed the implementation of Supply Chain and advanced Warehouse Management for MCS & DeepTech Oil and ROV Services. </p>               
+              <p class="timeline-text"> - Implemented Business central SCM and Inventory Management for Groovy.</p>               
   
             </li>
 
-            <li class="timeline-item">
+            {/* <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">TEPCO</h4>
+              <h4 class="h4 timeline-item-title">White Point</h4>
               <p class="timeline-text">
                 Process Engineer
               </p>
-              <span>12/2022 — 09/2024</span>
-              {/* <p class="timeline-text">
-                Supply Chain – Planning – Production – Advanced Warehouse 
-                Management – Field Service – Business Central.
-              </p> */}
+              <span>05/2022 — 09/2024</span>
               <p class="timeline-text">
-                  -     Collaborated with my team to improve productivity and enhancing the layout of
-                        the production line and Manpower distribution using Software tools such as Flex
-                        Sim, MOST and EXCEL. 
+                  <b>Scope & Role</b>: Led the end-to-end D365 SCM implementation, focusing heavily on Production Control, Master 
+Planning, and Inventory modules.
               </p>
               <p class="timeline-text">
-                  - Guided Production Engineers in optimizing their production line through waste
-                    reduction.
+                  - Mapped manufacturing shop-floor operations with D365 best practices, authored core Software Design Documents 
+(SDD), executed Data Migration for BOMs and Routes, and successfully managed UAT and Go-Live phases. 
               </p>
 
-            </li>
+            </li> */}
 
           </ul>
 

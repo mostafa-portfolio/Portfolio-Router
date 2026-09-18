@@ -25,7 +25,7 @@ export default function Resume(){
             </div>
             <div className='resume'>
                 <Experience/>
-                <Internships/>
+                {/* <Internships/> */}
                 <Education/>
                 <SkillsSection/>
             </div>

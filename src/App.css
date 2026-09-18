@@ -111,6 +111,10 @@ a{
   color: hsl(0, 0%, 84%);;
 }
 
+b{
+  font-weight: bold;
+  color: var(--light-gray);
+}
 /* header */
 
 .header{
@@ -307,14 +311,22 @@ hr{
 }
 .portfolio-card-container{
   margin-top: 2em;
+  margin-right: 2em;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: .5em;
+  padding: 30px;
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  background: linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%);
+  box-shadow: 0 16px 30px hsla(0, 0%, 0%, 0.25);
 }
 
-.portfolio-card{
-   max-width: 95%;
-  }
+/* .portfolio-card{
+  margin-bottom: 2em;
+  border: 2px solid red;
+  max-width: 100%;
+  } */
 
 .portfolio-img{
   width: 100%;
@@ -385,7 +397,7 @@ hr{
 
 .timeline-item { position: relative; }
 
-.timeline-item:not(:last-child) { margin-bottom: 20px; }
+.timeline-item:not(:last-child) { margin-bottom: 2.5rem; }
 
 .timeline-item-title {
   font-size: var(--fs-6);
@@ -425,10 +437,13 @@ hr{
   font-size: 14px;
   color: var(--light-gray);
   font-weight: var(--fw-300);
-  line-height: 1.6;
+  line-height: 1.7;
   max-width: 50em;
+  margin-bottom: 1.25rem;
 }
-
+.education{
+  margin-bottom: .6rem;
+}
 
 /**
  * skills 
@@ -720,7 +735,7 @@ max-width: 90%;
   width: 120px;
   height: 100%;
 }
-.service-card , .certificates-card-container , .portfolio-card-container{
+.service-card , .certificates-card-container /* , .portfolio-card-container */{
   grid-template-columns: 1fr 1fr;
 }
 
