@@ -14,9 +14,9 @@ export default function Portfolio(){
    const portfolioCards= portfolioData.map(data=>{
                 return  <div className='portfolio-card-container cursor-pointer' key={data.id}>
                             <h3>{data.title}</h3>
-                            <p><b>Scope:</b> {data.scope}</p>
-                            <p><b>Key contributions:</b></p>
-                            <p>{data.contribution1}</p>
+                            <p className='portfolio-scope'><b>Scope & Role:</b> {data.scope}</p>
+                            <p className='portfolio-contribution'><b>Key contributions:</b></p>
+                            <p className='portfolio-cont1'>{data.contribution1}</p>
                             <p>{data.contribution2}</p>
                         </div>
                 })
