@@ -23,7 +23,7 @@ export default function Experience(){
                 D365 F&O Functional Consultant - Supply Chain & WMS
               </p>
               
-              <span>05/2025 — Present</span>
+              <span>05/2025 — 07/2026</span>
 
               <p class="timeline-text">
                 <b>Core Focus</b>: Translate complex business requirements into scalable D365 F&O solutions by running functional design workshops and detailed process mapping sessions.
