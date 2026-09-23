@@ -525,6 +525,16 @@ hr{
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 0;
+  z-index: 3;
+  background: hsla(240, 1%, 17%, 1);
+}
+.lower-header{
+  padding: .5rem;
+  border-radius: .3rem;
+  width: 100%;
+}
+.lower-header:hover{
+  background-color: gray;
 }
 
 /* Main Section - Media */
