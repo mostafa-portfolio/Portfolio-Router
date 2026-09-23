@@ -529,13 +529,10 @@ hr{
   background: hsla(240, 1%, 17%, 1);
 }
 .lower-header{
-  padding: .5rem;
+  padding: .2rem;
   border-radius: .3rem;
-  width: 100%;
 }
-.lower-header:hover{
-  background-color: gray;
-}
+
 
 /* Main Section - Media */
 

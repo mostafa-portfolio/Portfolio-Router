@@ -7,13 +7,14 @@ import Portfolio from './components/Portfolio'
 import Certificates from './components/Certificates'
 import Side from './components/Side'
 import Landing from './Pages/LandingPage'
-
+import ScrollToTop from './components/ScrollToTop'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
       <HashRouter>
+        <ScrollToTop/>
         <Routes>
             <Route path='/' element={<Landing/>}></Route>
             <Route path='/resume' element={<Resume/>}/>
